@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/liked"
+        android:icon="@drawable/ic_like_fill"
+        android:title="Liked"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_theme"
+        android:title="Theme"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/lightTheme"
+                android:title="Light" />
+            <item
+                android:id="@+id/darkTheme"
+                android:title="Dark" />
+            <item
+                android:id="@+id/defaultTheme"
+                android:title="Default" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/download"
+        android:title="Downloads Path" />
+    <item
+        android:id="@+id/contact"
+        android:title="Contact" />
+</menu>
