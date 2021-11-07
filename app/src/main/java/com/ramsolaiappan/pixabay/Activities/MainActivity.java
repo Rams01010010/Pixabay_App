@@ -256,7 +256,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.contact:
                 MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(MainActivity.this);
                 builder.setTitle("Contact us")
-                        .setMessage("Email : ramsolaiappan@gmail.com\nPhone : +919514290441")
+                        .setMessage("Email : ramsolaiappan@gmail.com")
                         .setPositiveButton("Ok",null).show();
             case R.id.download:
                 Snackbar.make(recyclerView, Environment.getExternalStorageDirectory().getAbsolutePath()+"/Pixabay/",BaseTransientBottomBar.LENGTH_LONG).setAction("DISMISS", new View.OnClickListener() {
