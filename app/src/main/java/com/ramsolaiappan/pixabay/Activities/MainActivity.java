@@ -258,6 +258,7 @@ public class MainActivity extends AppCompatActivity {
                 builder.setTitle("Contact us")
                         .setMessage("Email : ramsolaiappan@gmail.com")
                         .setPositiveButton("Ok",null).show();
+                break;
             case R.id.download:
                 Snackbar.make(recyclerView, Environment.getExternalStorageDirectory().getAbsolutePath()+"/Pixabay/",BaseTransientBottomBar.LENGTH_LONG).setAction("DISMISS", new View.OnClickListener() {
                     @Override
